@@ -1,0 +1,123 @@
+15:39:18.688 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!loginTest
+15:39:18.692 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+15:39:21.495 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+15:39:21.495 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+15:39:21.542 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+15:45:22.828 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+15:45:22.880 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+15:45:22.880 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+15:45:25.599 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+15:45:25.599 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+15:45:25.638 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:13:55.829 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:13:55.880 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:13:55.880 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:13:55.912 [main] ERROR com.api.listeners.TestListners - Test Failed!!loginTest
+22:13:55.982 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:17:15.926 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:17:15.968 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:17:15.968 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:17:16.009 [main] ERROR com.api.listeners.TestListners - Test Failed!!loginTest
+22:17:16.063 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:26:23.376 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:26:23.423 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:26:23.423 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:26:24.767 [main] INFO  com.api.filters.LoggingFilter - Base URLhttp://64.227.160.186:8080
+22:26:24.767 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:26:24.767 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+22:26:25.737 [main] INFO  com.api.filters.LoggingFilter - StatusCode: 200
+22:26:25.738 [main] INFO  com.api.filters.LoggingFilter - Response Header: io.restassured.internal.RestAssuredResponseImpl@2233cac0
+22:26:25.752 [main] ERROR com.api.listeners.TestListners - Test Failed!!loginTest
+22:26:25.814 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:44:59.986 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:45:00.040 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:45:00.040 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:45:01.319 [main] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+22:45:01.319 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:45:01.320 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+22:45:02.043 [main] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+22:45:02.044 [main] INFO  com.api.filters.LoggingFilter - Response Header: io.restassured.internal.RestAssuredResponseImpl@2233cac0
+22:45:02.058 [main] ERROR com.api.listeners.TestListners - Test Failed!!loginTest
+22:45:02.119 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:53:59.001 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:53:59.046 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:53:59.047 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:54:00.515 [main] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+22:54:00.516 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:54:00.516 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+22:54:01.236 [main] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+22:54:01.283 [main] INFO  com.api.filters.LoggingFilter - Response Header: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYTEyMzQiLCJpYXQiOjE3NjMzMTM4NDAsImV4cCI6MTc2MzMxNzQ0MH0.08W9R2R9CuD-vPW_U5vj5SGXCe6s12SZlIWDKYM234I",
+    "type": "Bearer",
+    "id": 3105,
+    "username": "ra1234",
+    "email": "raja2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:54:01.283 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 16 Nov 2025 17:24:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:54:01.355 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+22:54:01.356 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:54:01.387 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+22:57:47.348 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+22:57:47.392 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+22:57:47.393 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:57:48.911 [main] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+22:57:48.911 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+22:57:48.912 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+22:57:49.585 [main] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+22:57:49.624 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYTEyMzQiLCJpYXQiOjE3NjMzMTQwNjksImV4cCI6MTc2MzMxNzY2OX0._CoCNQT1J6L6Vxd8nJ33SEY5p4T5J9iSrYZVrhNTvJs",
+    "type": "Bearer",
+    "id": 3105,
+    "username": "ra1234",
+    "email": "raja2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:57:49.625 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 16 Nov 2025 17:27:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:57:49.675 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+22:57:49.675 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+22:57:49.709 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!

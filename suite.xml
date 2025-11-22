@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API test suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API test">
+    <classes>
+      <class name="com.api.test.LoginAPITest3">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.api.test.LoginAPITest3 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
