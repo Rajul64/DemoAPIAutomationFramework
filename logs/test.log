@@ -121,3 +121,43 @@ Connection=keep-alive
 22:57:49.675 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
 22:57:49.675 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
 22:57:49.709 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+18:41:30.602 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+18:41:30.628 [main] INFO  com.api.listeners.TestListners - Started!!loginTest
+18:41:30.628 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+18:41:31.524 [main] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+18:41:31.524 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+18:41:31.524 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+18:41:32.009 [main] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+18:41:32.031 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYTEyMzQiLCJpYXQiOjE3NjM4MTcwOTIsImV4cCI6MTc2MzgyMDY5Mn0.s4biDlAjGT6hNagvB2FRH1j93-yJatj13NM-cGJw_-s",
+    "type": "Bearer",
+    "id": 3105,
+    "username": "ra1234",
+    "email": "raja2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:41:32.031 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 22 Nov 2025 13:11:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:41:32.065 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+18:41:32.065 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+18:41:32.090 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
