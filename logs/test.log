@@ -161,3 +161,83 @@ Connection=keep-alive
 18:41:32.065 [main] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
 18:41:32.065 [main] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
 18:41:32.090 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+14:09:29.233 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+14:09:29.278 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Started!!loginTest
+14:09:29.278 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+14:09:30.917 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+14:09:30.919 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+14:09:30.919 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+14:09:31.674 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+14:09:31.722 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYTEyMzQiLCJpYXQiOjE3NjM4ODcxNzEsImV4cCI6MTc2Mzg5MDc3MX0.e7l6BgSLo9ogX7musImp-ZyEFHKsLL73nPa_Xfax3YI",
+    "type": "Bearer",
+    "id": 3105,
+    "username": "ra1234",
+    "email": "raja2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:09:31.722 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 23 Nov 2025 08:39:31 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:09:31.801 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+14:09:31.803 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+14:09:31.833 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
+14:12:18.720 [main] INFO  com.api.listeners.TestListners - Test Suite Started!!
+14:12:18.763 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Started!!loginTest
+14:12:18.765 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+14:12:20.266 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Base URL: http://64.227.160.186:8080
+14:12:20.266 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+14:12:20.268 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"ra1234","password":"ra1234"}
+14:12:21.037 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response StatusCode: 200
+14:12:21.085 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYTEyMzQiLCJpYXQiOjE3NjM4ODczNDAsImV4cCI6MTc2Mzg5MDk0MH0.3yQbuxr6zyKUiGOwv42MoayfNRBe4_P65xpr-NYAaGw",
+    "type": "Bearer",
+    "id": 3105,
+    "username": "ra1234",
+    "email": "raja2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:12:21.085 [TestNG-test-API test-1] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 23 Nov 2025 08:42:20 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:12:21.156 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Test Suite Passed!!loginTest
+14:12:21.160 [TestNG-test-API test-1] INFO  com.api.listeners.TestListners - Description!!Verify if login test API is working
+14:12:21.187 [main] INFO  com.api.listeners.TestListners - Test Suite Completed!!
