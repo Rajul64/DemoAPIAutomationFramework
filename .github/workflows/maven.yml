@@ -13,9 +13,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-    schedule:
-      - cron: 00 18 * * * # Run everyday at 18:00 UTC
-      - cron: 00 3 * * * # Run everyday at 3:00 UTC
+  schedule:
+    - cron: 00 18 * * * # Run everyday at 18:00 UTC
+    - cron: 00 3 * * * # Run everyday at 3:00 UTC
 
 jobs:
   build:
@@ -38,3 +38,19 @@ jobs:
     - name: Execute Tests
       run: mvn clean test -Dsuite=suite
 
+    - name: Upload a Build Artifact
+      if: always()
+      uses: actions/upload-artifact@v5.0.0
+      with:
+    # Artifact name
+        name: Logs
+    # A file, directory or wildcard pattern that describes what to upload
+        path: logs/
+
+    - name: Publish Test Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: TestNG Results
+        path: target/surefire-reports/junitreports/TEST-*.xml
+        reporter: java-junit
